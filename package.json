@@ -1,0 +1,23 @@
+{
+  "name": "bloated-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small TypeScript API used by the image-diet exercise",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/express": "5.0.3",
+    "@types/node": "24.9.2"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
