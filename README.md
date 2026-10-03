@@ -3,6 +3,13 @@
 A small TypeScript API for the exercise "Put this image on a diet" of the PXL Docker course:
 <https://pxl-systems-advanced.github.io/docker-labs/#/exercises/ex-image-diet>
 
+Clone it with the GitHub CLI, or with Git:
+
+```bash
+gh repo clone PXL-Systems-Advanced/bloated-app
+git clone https://github.com/PXL-Systems-Advanced/bloated-app.git
+```
+
 It works, and its image is about seven times larger than it needs to be.
 
 Build and test it:
